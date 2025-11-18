@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Periodic Table</title>
+<style>
+  body {
+    background: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  h1 {
+    margin: 15px 0;
+  }
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  td {
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 6px;
+    color: #000;
+    font-weight: bold;
+    position: relative;
+  }
+  td .num {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    font-size: 10px;
+    font-weight: normal;
+  }
+  /* Colors */
+  .red { background: #ff4d4d; }        /* Alkali metals */
+  .orange { background: #ffb84d; }     /* Alkaline earth */
+  .yellow { background: #ffff80; }     /* Transition metals */
+  .green { background: #99ff99; }      /* Post-transition/metalloids */
+  .blue { background: #80d4ff; }       /* Nonmetals */
+  .purple { background: #d9b3ff; }     /* Noble gases */
+  .gray { background: #f2f2f2; }       /* Empty */
+</style>
+</head>
+<body>
+<h1>Periodic Table</h1>
+
+<table>
+  <!-- Row 1 -->
+  <tr>
+    <td class="blue"><span class="num">1</span>H</td>
+    <td colspan="16" class="gray"></td>
+    <td class="purple"><span class="num">2</span>He</td>
+  </tr>
+
+  <!-- Row 2 -->
+  <tr>
+    <td class="red"><span class="num">3</span>Li</td>
+    <td class="orange"><span class="num">4</span>Be</td>
+    <td colspan="10" class="gray"></td>
+    <td class="green"><span class="num">5</span>B</td>
+    <td class="blue"><span class="num">6</span>C</td>
+    <td class="blue"><span class="num">7</span>N</td>
+    <td class="blue"><span class="num">8</span>O</td>
+    <td class="blue"><span class="num">9</span>F</td>
+    <td class="purple"><span class="num">10</span>Ne</td>
+  </tr>
+
+  <!-- Row 3 -->
+  <tr>
+    <td class="red"><span class="num">11</span>Na</td>
+    <td class="orange"><span class="num">12</span>Mg</td>
+    <td colspan="10" class="gray"></td>
+    <td class="green"><span class="num">13</span>Al</td>
+    <td class="green"><span class="num">14</span>Si</td>
+    <td class="blue"><span class="num">15</span>P</td>
+    <td class="blue"><span class="num">16</span>S</td>
+    <td class="blue"><span class="num">17</span>Cl</td>
+    <td class="purple"><span class="num">18</span>Ar</td>
+  </tr>
+
+  <!-- Row 4 -->
+  <tr>
+    <td class="red"><span class="num">19</span>K</td>
+    <td class="orange"><span class="num">20</span>Ca</td>
+    <td class="yellow"><span class="num">21</span>Sc</td>
+    <td class="yellow"><span class="num">22</span>Ti</td>
+    <td class="yellow"><span class="num">23</span>V</td>
+    <td class="yellow"><span class="num">24</span>Cr</td>
+    <td class="yellow"><span class="num">25</span>Mn</td>
+    <td class="yellow"><span class="num">26</span>Fe</td>
+    <td class="yellow"><span class="num">27</span>Co</td>
+    <td class="yellow"><span class="num">28</span>Ni</td>
+    <td class="yellow"><span class="num">29</span>Cu</td>
+    <td class="yellow"><span class="num">30</span>Zn</td>
+    <td class="green"><span class="num">31</span>Ga</td>
+    <td class="green"><span class="num">32</span>Ge</td>
+    <td class="green"><span class="num">33</span>As</td>
+    <td class="blue"><span class="num">34</span>Se</td>
+    <td class="blue"><span class="num">35</span>Br</td>
+    <td class="purple"><span class="num">36</span>Kr</td>
+  </tr>
+
+  <!-- Row 5 -->
+  <tr>
+    <td class="red"><span class="num">37</span>Rb</td>
+    <td class="orange"><span class="num">38</span>Sr</td>
+    <td class="yellow"><span class="num">39</span>Y</td>
+    <td class="yellow"><span class="num">40</span>Zr</td>
+    <td class="yellow"><span class="num">41</span>Nb</td>
+    <td class="yellow"><span class="num">42</span>Mo</td>
+    <td class="yellow"><span class="num">43</span>Tc</td>
+    <td class="yellow"><span class="num">44</span>Ru</td>
+    <td class="yellow"><span class="num">45</span>Rh</td>
+    <td class="yellow"><span class="num">46</span>Pd</td>
+    <td class="yellow"><span class="num">47</span>Ag</td>
+    <td class="yellow"><span class="num">48</span>Cd</td>
+    <td class="green"><span class="num">49</span>In</td>
+    <td class="green"><span class="num">50</span>Sn</td>
+    <td class="green"><span class="num">51</span>Sb</td>
+    <td class="green"><span class="num">52</span>Te</td>
+    <td class="blue"><span class="num">53</span>I</td>
+    <td class="purple"><span class="num">54</span>Xe</td>
+  </tr>
+
+  <!-- Row 6 -->
+  <tr>
+    <td class="red"><span class="num">55</span>Cs</td>
+    <td class="orange"><span class="num">56</span>Ba</td>
+    <td class="yellow"><span class="num">57</span>La</td>
+    <td class="yellow"><span class="num">72</span>Hf</td>
+    <td class="yellow"><span class="num">73</span>Ta</td>
+    <td class="yellow"><span class="num">74</span>W</td>
+    <td class="yellow"><span class="num">75</span>Re</td>
+    <td class="yellow"><span class="num">76</span>Os</td>
+    <td class="yellow"><span class="num">77</span>Ir</td>
+    <td class="yellow"><span class="num">78</span>Pt</td>
+    <td class="yellow"><span class="num">79</span>Au</td>
+    <td class="yellow"><span class="num">80</span>Hg</td>
+    <td class="green"><span class="num">81</span>Tl</td>
+    <td class="green"><span class="num">82</span>Pb</td>
+    <td class="green"><span class="num">83</span>Bi</td>
+    <td class="green"><span class="num">84</span>Po</td>
+    <td class="blue"><span class="num">85</span>At</td>
+    <td class="purple"><span class="num">86</span>Rn</td>
+  </tr>
+
+  <!-- Row 7 -->
+  <tr>
+    <td class="red"><span class="num">87</span>Fr</td>
+    <td class="orange"><span class="num">88</span>Ra</td>
+    <td class="yellow"><span class="num">89</span>Ac</td>
+    <td class="yellow"><span class="num">104</span>Rf</td>
+    <td class="yellow"><span class="num">105</span>Db</td>
+    <td class="yellow"><span class="num">106</span>Sg</td>
+    <td class="yellow"><span class="num">107</span>Bh</td>
+    <td class="yellow"><span class="num">108</span>Hs</td>
+    <td class="yellow"><span class="num">109</span>Mt</td>
+    <td class="yellow"><span class="num">110</span>Ds</td>
+    <td class="yellow"><span class="num">111</span>Rg</td>
+    <td class="yellow"><span class="num">112</span>Cn</td>
+    <td class="green"><span class="num">113</span>Nh</td>
+    <td class="green"><span class="num">114</span>Fl</td>
+    <td class="green"><span class="num">115</span>Mc</td>
+    <td class="green"><span class="num">116</span>Lv</td>
+    <td class="blue"><span class="num">117</span>Ts</td>
+    <td class="purple"><span class="num">118</span>Og</td>
+  </tr>
+
+  <tr><td colspan="18" style="height:25px; background:#fff;"></td></tr>
+  <!-- Lanthanides -->
+  <tr>
+    <td colspan="2" class="gray" style="background-color: white;"></td>
+    <td class="yellow"><span class="num">58</span>Ce</td>
+    <td class="yellow"><span class="num">59</span>Pr</td>
+    <td class="yellow"><span class="num">60</span>Nd</td>
+    <td class="yellow"><span class="num">61</span>Pm</td>
+    <td class="yellow"><span class="num">62</span>Sm</td>
+    <td class="yellow"><span class="num">63</span>Eu</td>
+    <td class="yellow"><span class="num">64</span>Gd</td>
+    <td class="yellow"><span class="num">65</span>Tb</td>
+    <td class="yellow"><span class="num">66</span>Dy</td>
+    <td class="yellow"><span class="num">67</span>Ho</td>
+    <td class="yellow"><span class="num">68</span>Er</td>
+    <td class="yellow"><span class="num">69</span>Tm</td>
+    <td class="yellow"><span class="num">70</span>Yb</td>
+    <td class="yellow"><span class="num">71</span>Lu</td>
+  </tr>
+
+  <!-- Actinides -->
+  <tr>
+    <td colspan="2" class="gray" style="background-color: white;"></td>
+    <td class="yellow"><span class="num">90</span>Th</td>
+    <td class="yellow"><span class="num">91</span>Pa</td>
+    <td class="yellow"><span class="num">92</span>U</td>
+    <td class="yellow"><span class="num">93</span>Np</td>
+    <td class="yellow"><span class="num">94</span>Pu</td>
+    <td class="yellow"><span class="num">95</span>Am</td>
+    <td class="yellow"><span class="num">96</span>Cm</td>
+    <td class="yellow"><span class="num">97</span>Bk</td>
+    <td class="yellow"><span class="num">98</span>Cf</td>
+    <td class="yellow"><span class="num">99</span>Es</td>
+    <td class="yellow"><span class="num">100</span>Fm</td>
+    <td class="yellow"><span class="num">101</span>Md</td>
+    <td class="yellow"><span class="num">102</span>No</td>
+    <td class="yellow"><span class="num">103</span>Lr</td>
+  </tr>
+
+</table>
+
+</body>
+</html>
